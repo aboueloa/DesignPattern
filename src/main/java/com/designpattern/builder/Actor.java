@@ -4,7 +4,7 @@ public class Actor {
     private final String name;
     private Role role;
     private int salary;
-    //add a useless comment to test
+    //add a useless comment to test?
     public Actor(Builder builder){
         name = builder.name;
         role = builder.role;
