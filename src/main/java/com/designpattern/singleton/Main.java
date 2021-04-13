@@ -1,7 +1,11 @@
 package com.designpattern.singleton;
 
-public class DesignPatternSingleton {
+
+
+public class Main {
     public static void main(String[] args){
+
+        //singleton
         //Thread safe
         new Thread(() -> System.out.println(SingletonThreadSafe.getInstance("thread1")
                 .getValue()))
@@ -16,6 +20,8 @@ public class DesignPatternSingleton {
         new Thread(() -> System.out.println(Singleton.getInstance("thread4")
                 .getValue()))
                 .start();
+
+
 
     }
 }
