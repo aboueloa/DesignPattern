@@ -1,6 +1,6 @@
 package com.designpattern.strategy;
 
-public class DesignPatternStrategy {
+public class Main {
     public static void main(String[] args){
         Filter BW = new BlackWhite();
         Compressor jpeg = new Jpeg();
